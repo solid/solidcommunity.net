@@ -46,7 +46,7 @@ or enable anyone else to misuse the system. For example, you must not do,
 or attempt to do, any of the following in connection with solidcommunity.net
 services:
 
-* violate the law in any way, including by storing, publishing or sharing
+* violate any laws or regulation, including by storing, publishing or sharing
     illegal material, including material that's fraudulent, defamatory, or misleading;
 * breach or otherwise circumvent any security or authentication measures;
 * interfere with or disrupt any user, host, or network, for example by sending
@@ -65,8 +65,7 @@ services:
 * sell the services of solidcommunity.net unless specifically authorized to do so;
 * harass or abuse solidcommunity.net system operators, representatives or
     agents performing services on behalf of the Solid Project;
-* violate the privacy or infringe the rights of others;
-* Use solidcommunity.net to violate any law or regulation.
+* violate the privacy or infringe the rights of others.
 
 In the event that any user abuses or misuses the system, assists anyone else
 to abuse or misuse the system, or monopolizes an unfair proportion of available
