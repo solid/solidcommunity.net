@@ -1,6 +1,6 @@
 # Solidcommunity.net
 
-Operational issue tracking for [solidcommunity.net](https://solidcommunity.net).
+Operational issue tracking and how-to for [solidcommunity.net](https://solidcommunity.net).
 
 Solidcommunity.net operates under the 
 [governance](https://github.com/solid/process#solidcommunitynet) of
@@ -9,6 +9,7 @@ the Solid Project, subject to the
 
 * Status of [current issues](https://github.com/solid/solidcommunity.net/issues)
 * Submit a [new issue](https://github.com/solid/solidcommunity.net/issues/new)
+* Server Management [how-to](https://github.com/solid/solidcommunity.net/wiki)
 
 ## Solidcommunity.net Acceptable Use Policy
 
