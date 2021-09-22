@@ -10,6 +10,7 @@ the Solid Project, subject to the
 * Status of [current issues](https://github.com/solid/solidcommunity.net/issues)
 * Submit a [new issue](https://github.com/solid/solidcommunity.net/issues/new)
 * Server Management [how-to](https://github.com/solid/solidcommunity.net/wiki)
+* Browser [user guide](https://github.com/solid/userguide)
 
 ## Solidcommunity.net Acceptable Use Policy
 
