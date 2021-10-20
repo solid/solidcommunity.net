@@ -12,7 +12,7 @@ the Solid Project, subject to the
 * Server Management [how-to](https://github.com/solid/solidcommunity.net/wiki)
 * Browser [user guide](https://github.com/solid/userguide)
 
-[Glossary](https://github.com/solid/solidcommunity.net/wiki/Glossary) of frequent terms used in Solid environnemet.
+[Glossary](https://github.com/solid/solidcommunity.net/wiki/Glossary) of terms frequently used in Solid environment.
 
 ## Solidcommunity.net Acceptable Use Policy
 
