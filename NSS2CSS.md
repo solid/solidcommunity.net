@@ -29,7 +29,8 @@
      For example : - 
      - in the front-end a folder URL without a `/` will find a folder
      - `hpps://yourPod/browse.html` opens the SolidOS webApp
-     - creating a new POD installs the same default containers/resources structure including ACL's
+     - creating a new POD installs the same NSS default containers/resources structure including ACL's
+     - your pod can be used as a login end point (https://yourPod.solidcommunity.net, and not only hhtps://solidcommunity.net in CSS)
 4. **What are the changes ?**
    - none with your data
    - NSS trustedApp functionality based on subdomain do not exist in CSS
@@ -41,6 +42,9 @@
    - Fill free to propose and help implement your ideas.
 
 ## PIVOT login process
+Actual users of CSS will not see much changes, just some adaptation
+- login to the migrated account can be done with just the podUsername
+- login redirect to the user account
 ## CSS account management and howTo add a recovery email to the migrated account
 ## Thanks and some reasons for the move
 - for the solid community server the move from NSS to CSS has been supported by the Solid Community members since 2 years
