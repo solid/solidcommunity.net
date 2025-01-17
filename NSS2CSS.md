@@ -36,7 +36,7 @@
    - the IdP login process
    - password recovery after migation
 5. **And now on**
-   - some missing things : Hopefully not many. And surely some regression : for example not pod delete
+   - some missing things : Hopefully not many. And surely some regression : for example no pod delete function
    - improvements what CSS as added like implementing many notifications types.
    - Fill free to propose and help implement your ideas.
 
@@ -45,6 +45,6 @@
 ## Thanks and some reasons for the move
 - for the solid community server the move from NSS to CSS has been supported by the Solid Community members since 2 years
   The idea was to replace NSS that dates a bit by recently developped and better supported CSS, this does not mean that NSS is abandonned
-  Some use experience where considered to be improved and CSS PIVOT flavour was made for that. Thanks to @michieldejong and testers
-- A migration package was proposed by @rubenVerborgh and served as bases for the solidcommunity.net migration @bourgeoa
+- Some user experiences where considered to be a regression and CSS PIVOT flavour was made for that. Thanks to @michieldejong and testers
+- A migration script was proposed by @rubenVerborgh and served as basis for the solidcommunity.net migration @bourgeoa
 
