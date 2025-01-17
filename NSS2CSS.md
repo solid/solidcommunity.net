@@ -21,12 +21,13 @@
    - https://solidcommunity.net has kept pod's from inception from all NSS versions including IdP breaking changes, Solid specification changes, broken data (broken WebID's, no WebID document, external WebId's, ...)
    - a small amount of Pod's are incompatible with CSS IdP that uses an email address (characters not allowed (`@`, ` `, uppercase letters)).
    - some data links have been migrated in turtle files (.ttl, .meta., .acl) to not break existing internal links
-    These changes will not happen in the final migration where we keep the domain:PORT
+     These changes will not happen in the final migration where we keep the domain:PORT
    - the only change in data relates to the oidcIssuer in WebID that must endsWith a `/` in CSS
 3. **What do not change ?**
    - `your data`, thanks to the fact that the domain is unchanged `https://solidcommunity.net` all link relations are kept
-   - A flavor of `CSS with mashlib` called `PIVOT` https://github.com/solid-contrib/pivot has been prepared to reflect has much as possible the actual user experience with the SolidOS front-end
-     For example : - 
+   - A flavor of `CSS` called `PIVOT` https://github.com/solid-contrib/pivot has been prepared to reflect has much as possible the actual user experience with the SolidOS front-end
+     For example :
+     - subdomain + mashlib, including /browse.html wwebApp 
      - in the front-end a folder URL without a `/` will find a folder
      - `hpps://yourPod/browse.html` opens the SolidOS webApp
      - creating a new POD installs the same NSS default containers/resources structure including ACL's
@@ -35,10 +36,14 @@
    - none with your data
    - NSS trustedApp functionality based on subdomain do not exist in CSS
    - the IdP login process
-   - password recovery after migation
+   - no password recovery after migation
 5. **And now on**
-   - some missing things : Hopefully not many. And surely some regression : for example no pod delete function
-   - improvements what CSS as added like implementing many notifications types.
+   - some missing things : Hopefully not many. And surely some regression compared to NSS : for example
+     - no pod delete function
+     - no pod proxy
+   - improvements that CSS is proposing like implementing
+     - many notifications types.
+     - Credential Tokens
    - Fill free to propose and help implement your ideas.
 
 ## PIVOT login
@@ -63,5 +68,5 @@ Some clarification may help.
 - for the solid community server the move from NSS to CSS has been supported by the Solid Community members since 2 years
   The idea was to replace NSS that dates a bit, by recently developped and better supported CSS, this does not mean that NSS is deprecated
 - On CSS some user experiences where considered to be a regression and CSS PIVOT flavour was made for that. Thanks to @michieldejong and testers
-- A migration script was proposed by @rubenVerborgh and served as basis for the solidcommunity.net migration @bourgeoa
+- A migration script was proposed by @RubenVerborgh and served as basis for the solidcommunity.net migration @bourgeoa
 
