@@ -9,7 +9,7 @@
 **`AND IF YOU DON'T FIND YOUR POD, READ NEXT LINES AND ASK FOR RECOVERY/INTEGRATION`**
 
 
-1. **What does the migration do**
+1. **What does the migration do** https://github.com/nodeSolidServer/NSS2CSS/blob/solidcommunity.net/README.md
   - keep the same domain
   - move your pod as is to the new server (subdomain and data)
   - keep your password
@@ -25,7 +25,7 @@
   - the only change in data relates to the oidcIssuer in WebID that must endsWith a `/` in CSS
 3. **What do not change ?**
   - `your data`, thanks to the fact that the domain is unchanged `https://solidcommunity.net` all link relations are kept
-  - A flavor of `CSS with mashlib` called `PIVOT` has been prepared to reflect has much as possible the actual user experience with the SolidOS front-end
+  - A flavor of `CSS with mashlib` called `PIVOT` https://github.com/solid-contrib/pivot has been prepared to reflect has much as possible the actual user experience with the SolidOS front-end
     For example : - 
     - in the front-end a folder URL without a `/` will find a folder
     - `hpps://yourPod/browse.html` opens the SolidOS webApp
