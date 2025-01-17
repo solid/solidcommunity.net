@@ -41,14 +41,27 @@
    - improvements what CSS as added like implementing many notifications types.
    - Fill free to propose and help implement your ideas.
 
-## PIVOT login process
-Actual users of CSS will not see much changes, just some adaptation
-- login to the migrated account can be done with just the podUsername
-- login redirect to the user account
-## CSS account management and howTo add a recovery email to the migrated account
+## PIVOT login
+Actual users of CSS will not see much changes, just some adaptation to migration
+- login
+  - login to the migrated account can be done with just the podUsername (no need to type podUsername@users.css.pod)
+    All other accounts shall use the full email
+  - password : your NSS password
+- login redirects to the user account, where you can add/delete email addresses.
+  - these addresses if true ones can be used to recover lost password
+  - `We encourage you to add a real email address and remove the fake migration one`
+## CSS user account management
+Some clarification may help.
+- In NSS a pod and a user account have a one to one relation. The recovery email was located in the pod root ACL
+- In PIVOT (CSS) a user account can contain :
+  - many login email's, many pods, many webId's
+    - and at least one of each. You cannot delete a POD from an account
+    - you can add external WebId's
+  - These WebID's can have the property to access all pod ACL's (owner in NSS)
+- This is where you can create `Credential Tokens`
 ## Thanks and some reasons for the move
 - for the solid community server the move from NSS to CSS has been supported by the Solid Community members since 2 years
-  The idea was to replace NSS that dates a bit by recently developped and better supported CSS, this does not mean that NSS is abandonned
-- Some user experiences where considered to be a regression and CSS PIVOT flavour was made for that. Thanks to @michieldejong and testers
+  The idea was to replace NSS that dates a bit, by recently developped and better supported CSS, this does not mean that NSS is deprecated
+- On CSS some user experiences where considered to be a regression and CSS PIVOT flavour was made for that. Thanks to @michieldejong and testers
 - A migration script was proposed by @rubenVerborgh and served as basis for the solidcommunity.net migration @bourgeoa
 
