@@ -38,7 +38,7 @@
 
 
 ## PIVOT login process
-## CSS account management and howTo add a recovery email to the migarted account
+## CSS account management and howTo add a recovery email to the migrated account
 ## Thanks and some reasons for the move
 - for the solid community server the move from NSS to CSS has been supported by the Solid Community members since 2 years
   The idea was to replace NSS that dates a bit by recently developped and better supported CSS, this does not mean that NSS is abandonned
