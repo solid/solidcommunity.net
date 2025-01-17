@@ -8,8 +8,8 @@
 Migration shall occur on the week-end of January 2025 Saturday 25 to Sunday 26
 - **pre-migration** a test server is available on https://solidcommunity.net:8443
   - some 17000/65000 accounts have been migrated from a weekly backup of https://solidcommunity.net
-    - https://solidcommunity.net has kept pod's from inception with all NSS versions including IdP breaking changes, broken WebID's, no WebID document, external WebId's, ...
-    - a small amount of Pod's are incompatible with CSS IdP that uses an email address (characters not allowed(`@`, ` `, uppercase letters)
+    - https://solidcommunity.net has kept pod's from inception from all NSS versions including IdP breaking changes, Solid specification changes, broken data (broken WebID's, no WebID document, external WebId's, ...)
+    - a small amount of Pod's are incompatible with CSS IdP that uses an email address (characters not allowed (`@`, ` `, uppercase letters)).
   - some data links have been migrated in turtle files (.ttl, .meta., .acl) to not break existing internal links
     These changes will not happen in the final migration where we keep the domain:PORT
   - the only change in data relates to the oidcIssuer in WebID that must endsWith a `/` in CSS
