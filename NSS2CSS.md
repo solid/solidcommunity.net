@@ -34,7 +34,8 @@
      - your pod can be used as a login end point (https://yourPod.solidcommunity.net, and not only hhtps://solidcommunity.net in CSS)
 4. **What are the changes ?**
    - none with your data
-   - NSS trustedApp functionality based on subdomain do not exist in CSS
+   - NSS trustedApp functionality based on URL origin do not exist in CSS
+   - .meta stores file/folder size, date. Only PATCH can be used
    - the IdP login process
    - no password recovery after migation
 5. **And now on**
