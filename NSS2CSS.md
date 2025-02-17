@@ -53,7 +53,7 @@ Actual users of CSS will not see much changes, just some adaptation to migration
   - login to the migrated account can be done with just the podUsername (no need to type podUsername@users.css.pod)
     All other accounts shall use the full email
   - password : your NSS password
-- login redirects to the user account, where you can add/delete email addresses.
+- login redirects to the user account either directly or via an `edit` button, where you can add/delete email addresses.
   - these addresses if true ones can be used to recover lost password
   - `We encourage you to add a real email address and remove the fake migration one`
 ## CSS user account management
