@@ -57,6 +57,9 @@ Actual users of CSS will not see much changes, just some adaptation to migration
   - these addresses if true ones can be used to recover lost password
   - `We encourage you to add a real email address and remove the fake migration one`
 ## CSS user account management
+
+![image](https://github.com/user-attachments/assets/90f59046-94e9-4805-ba75-b55946362abf)
+
 Some clarification may help.
 - In NSS a pod and a user account have a one to one relation. The recovery email was located in the pod root ACL
 - In PIVOT (CSS) a user account can contain :
@@ -65,9 +68,6 @@ Some clarification may help.
     - you can add external WebId's
   - These WebID's can have the property to access all pod ACL's (owner in NSS)
 - This is where you can create `Credential Tokens`
-
-![image](https://github.com/user-attachments/assets/90f59046-94e9-4805-ba75-b55946362abf)
-
 
 ## Thanks and some reasons for the move
 - for the solid community server the move from NSS to CSS has been supported by the Solid Community members since 2 years
