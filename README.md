@@ -1,5 +1,7 @@
 # Solidcommunity.net
 
+The [Open Data Institute](https://theodi.org/) now maintains solidcommunity.net. Operational issues on solidcommunity.net can be reported by opening a ticket [here](https://service.theodi.org/help/1476250723).
+
 Operational issue tracking and how-to for [solidcommunity.net](https://solidcommunity.net).
 
 Solidcommunity.net operates under the 
